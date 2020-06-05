@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+
+}
+
+.a{position:fixed;
+top:0;
+left:160;
+z-index:10;
+}
+.b{
+position:fixed;
+top:0;
+left:430;
+z-index:10;
+}
+.c{
+position:fixed;
+top:0;
+left:775;
+z-index:10;
+}
+html{
+  background-image: url("https://www.critterbabies.com/wp-content/uploads/2014/01/labrador-retriever-puppies.jpeg");
+  background-size: cover;
+}
+
+.header-logo {
+  float: left;
+  padding-left: 40px;
+
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 120px 50px 100px;
+  color: #AD912F;
+  font-family:trebuchet ms;
+  font-size:23px;
+
+}
+
+.main {
+ padding: 35px 70px 100px 15px;
+ background-color:#FFDF00;
+ width:1140px;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  color: white;
+  margin:auto;
+  text-align:center;
+}
+
+.top-wrapper h1 {
+  padding:0px 0px;
+  opacity: 0.6;
+  font-size: 100px;
+  letter-spacing: 25px;
+  margin-bottom: 10px;
+  font-family:trebuchet ms;
+    margin:auto;
+  text-align:center;
+
+}
+
+.top-wrapper b {
+  opacity: 0.6;
+  font-family:trebuchet ms;
+  font-size:70px;
+    margin:auto;
+  text-align:center;
+}
+
+
+
+.btn{
+ padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  opacity:0.8;
+
+font-family:trebuchet ms;
+
+}
+
+.login{
+
+  color: #AD912F;
+  font-family:trebuchet ms;
+  font-size:23px;
+  display: block;
+  height:70px;
+  width:83px;
+  line-height: 80px;
+  padding-top: 10px ;
+  background-color: #AD912F;
+  text-align:center;
+  opacity:0.6;
+  font-size:21px;
+position:fixed;
+top:0;
+left:1130;
+z-index:10;
+
+
+}
+
+.login:hover{
+opacity:1;
+}
+
+
+.join{
+  padding: 15px 40px;
+  background-color:#AD912F ;
+  cursor: pointer;
+  box-shadow: 0 5px rgb(255,255,51, 1);
+  height:7px;
+  line-height: 7px;
+  opacity:0.8;
+  color:rgb(255,255,51, 1);
+}
+
+}
+
+.join:active{
+position: relative;
+top: 7px;
+box-shadow:none;
+}
+
+.btn-wrapper {
+padding-top:20px ;
+margin:auto;
+text-align:center;
+}
+
+.btn-wrapper b {
+padding:0px 0px;
+margin-top: 15px;
+margin-bottom: 0px;
+font-size:20px;
+float:center;
+
+}
+
+
+.right a{
+line-height: 65px;
+padding-left: 25px;
+padding-right: 25px;
+color: white;
+display: block;
+}
+.right{
+  float:right;
+}
+
+.fa {
+padding-left:100px;
+}
