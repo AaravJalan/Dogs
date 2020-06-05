@@ -128,24 +128,24 @@ opacity:1;
 
 
 .join{
-  padding: 15px 40px;
-  background-color:#AD912F ;
+padding: 15px 40px;
+  background-color: rgb(255,255,51, 1);
   cursor: pointer;
-  box-shadow: 0 5px rgb(255,255,51, 1);
-  height:7px;
-  line-height: 7px;
+  box-shadow: 0 5px #AD912F;
+  height:5px;
+  line-height: 5px;
   opacity:0.8;
-  color:rgb(255,255,51, 1);
-}
+  color:#AD912F;
 
 }
-
 .join:active{
 position: relative;
 top: 7px;
 box-shadow:none;
 }
-
+.join:hover{
+opacity:1;
+}
 .btn-wrapper {
 padding-top:20px ;
 margin:auto;
