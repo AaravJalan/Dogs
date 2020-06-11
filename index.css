@@ -17,23 +17,8 @@ html{
   background-size: cover;
 }
 
-.header-logo {
-  float: left;
-  padding-left: 40px;
-
-}
-
-.header-list li {
-  float: left;
-  padding: 33px 120px 50px 100px;
-  color: #AD912F;
-  font-family:trebuchet ms;
-  font-size:23px;
-
-}
 
 .main {
- padding: 35px 70px 100px 15px;
  background-color:#FFDF00;
  width:100%;
 }
@@ -45,14 +30,13 @@ html{
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+
   color: white;
   margin:auto;
   text-align:center;
 }
 
 .top-wrapper h1 {
-  padding:0px 0px;
   opacity: 0.6;
   font-size: 100px;
   letter-spacing: 25px;
@@ -79,8 +63,7 @@ html{
   display: inline-block;
   border-radius: 4px;
   opacity:0.8;
-
-font-family:trebuchet ms;
+  font-family:trebuchet ms;
 
 }
 
