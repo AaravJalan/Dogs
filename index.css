@@ -46,6 +46,10 @@ padding:180px 0 100px 0;
   font-family:trebuchet ms;
     margin:auto;
   text-align:center;
+    position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
 
 }
 
@@ -53,8 +57,12 @@ padding:180px 0 100px 0;
   opacity: 0.6;
   font-family:trebuchet ms;
   font-size:70px;
-    margin:auto;
+  margin:auto;
   text-align:center;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
 }
 
 
