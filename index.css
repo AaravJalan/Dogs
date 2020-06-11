@@ -15,6 +15,9 @@ header {
 html{
   background-image: url("https://www.critterbabies.com/wp-content/uploads/2014/01/labrador-retriever-puppies.jpeg");
   background-size: cover;
+  background-position: top left, center center;
+  background-repeat: repeat, no-repeat;
+ 
 }
 
 
