@@ -10,7 +10,7 @@ a {
 header {
 height: 80px;
 line-height: 20px;
-width:1265px;
+width:100%;
 font-size:100;
 background-color: rgb(255,255,51, 0.7); 
 position:fixed;
@@ -20,24 +20,26 @@ z-index:10;
 
 .a{position:fixed;
 top:0;
-left:160;
+left:15%;
 z-index:10;
 }
 .b{
 position:fixed;
 top:0;
-left:430;
+left:35%;
 z-index:10;
 }
 .c{
 position:fixed;
 top:0;
-left:775;
+left:65%;
 z-index:10;
 }
 html{
+  padding-top:80px;
   background-image: url("https://www.critterbabies.com/wp-content/uploads/2014/01/labrador-retriever-puppies.jpeg");
   background-size: cover;
+  background-position: center;
 }
 
 .header-logo {
@@ -56,13 +58,13 @@ html{
 }
 
 .main {
- padding: 35px 80px 100px 15px;
+ padding: 35px 80px 60px 15px;
  background-color:#FFDF00;
- width:1140px;
+ width:100%;
 }
 
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -95,8 +97,8 @@ html{
 .btn{
 padding-top: 12px;
 padding-bottom: 8px;
-padding-left: 24px;
-padding-right: 24px;
+padding-left: 28px;
+padding-right: 28px;
 color: white;
 display: block;
 opacity: 0.7;
@@ -111,7 +113,7 @@ font-family:trebuchet ms;
   font-size:23px;
   display: block;
   height:70px;
-  width:83px;
+  width:7.5%;
   line-height: 80px;
   padding-top: 10px ;
   background-color: #AD912F;
@@ -120,7 +122,7 @@ font-family:trebuchet ms;
   font-size:21px;
 position:fixed;
 top:0;
-left:1130;
+left:89.5%;
 z-index:10;
 
 
@@ -148,7 +150,6 @@ text-align:center;
 }
 
 .btn-wrapper b {
-padding:0px 0px;
 margin-top: 15px;
 margin-bottom: 0px;
 font-size:20px;
@@ -172,5 +173,43 @@ display: block;
 }
 
 .fa {
-padding-left:100px;
+margin:110px;
+}
+
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+    font-size: 37px;
+  }
+  .top-wrapper p {
+    font-size: 25px;
+  }
+
+}
+ @media all and (max-width: 670px) {  
+
+  .header-list{
+    font-size:20px;
+  }
+    .login{
+    font-size:20px;
+  }
+  .btn {
+  width: 100%;
+
+
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+    
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
