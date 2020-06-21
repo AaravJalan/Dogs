@@ -209,8 +209,6 @@ box-shadow:none;
 }
 
 
-  @media all and (max-width: 670px) {  
-
 
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
@@ -223,6 +221,7 @@ box-shadow:none;
     width:7.7%;
     left:87.3%;
 
+}
 }
  @media all and (max-width: 670px) {  
 
