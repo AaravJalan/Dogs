@@ -12,9 +12,8 @@ a {
 html{
   background-image: url("https://www.critterbabies.com/wp-content/uploads/2014/01/labrador-retriever-puppies.jpeg");
   background-size: cover;
-  background-position: top left, center center;
-  background-repeat: repeat, no-repeat;
- 
+    background-position: center;
+}
 }
 
 
@@ -140,3 +139,40 @@ display: block;
 padding-left:100px;
 }
 
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+    font-size: 37px;
+  }
+  .top-wrapper p {
+    font-size: 25px;
+  }
+
+}
+ @media all and (max-width: 670px) {  
+
+  .header-list{
+    font-size:20px;
+  }
+    .login{
+    font-size:20px;
+  }
+  .btn {
+  width: 100%;
+
+
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+    
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

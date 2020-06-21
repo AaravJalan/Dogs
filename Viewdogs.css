@@ -10,7 +10,7 @@ a {
 header {
 height: 80px;
 line-height: 20px;
-width:1265px;
+width:100%;
 font-size:100;
 background-color: rgb(255,255,51, 0.7); 
 height: 80px;
@@ -59,7 +59,7 @@ opacity:0.6;
 font-size:21px;
 position:fixed;
 top:0;
-left:89.5%;
+left:88.5%;
 z-index:10;
 
 
@@ -209,42 +209,20 @@ box-shadow:none;
 }
 
 
-@media all and (max-width: 1000px) {
-    .top-wrapper h1 {
-    font-size: 37px;
-  }
-  .top-wrapper p {
-    font-size: 25px;
-  }
-  .login{
-    width:7.7%;
-
-}
-.column {
-width: 47%;
-}
-
-.column h1{
-  font-size:35px
-}
-
- @media all and (max-width: 670px) {  
+  @media all and (max-width: 670px) {  
 
   .header-list{
     font-size:18px;
   }
     .login{
-    width:7.8%;
+    width:8%;
+    left:88%
   }
   .btn {
   width: 100%;
 
 
   }
-
-  .column {
-  width: 95%;
-}
     
   .top-wrapper h1 {
     font-size: 24px;
@@ -255,5 +233,59 @@ width: 47%;
     font-size: 14px;
     line-height: 20px;
   }
+  .btn-wrapper b {
+  padding-left:20px;
+
 }
- 
+.column {
+width: 47%;
+}
+
+.column h1{
+  font-size:35px
+}
+
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+    font-size: 37px;
+  }
+  .top-wrapper p {
+    font-size: 25px;
+  }
+  .login{
+    width:7.7%;
+    left:87.3%;
+
+}
+ @media all and (max-width: 670px) {  
+
+  .header-list{
+    font-size:18px;
+  }
+    .login{
+    width:8%;
+    left:88%
+  }
+  .btn {
+  width: 100%;
+
+
+  }
+    
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .btn-wrapper b {
+  padding-left:20px;
+}
+  .column {
+  width: 95%;
+}
+
+}
