@@ -60,7 +60,6 @@ html{
  padding: 35px 80px 100px 15px;
  background-color:#FFDF00;
  width:1140px;
-  height:1000px;
 }
 
 .container {
@@ -121,9 +120,9 @@ font-family:trebuchet ms;
   opacity:0.6;
   font-size:21px;
   position:fixed;
-  top:0;
-  left:1130;
-  z-index:10;
+top:0;
+left:1130;
+z-index:10;
 
 }
 
