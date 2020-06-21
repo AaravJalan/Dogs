@@ -11,7 +11,6 @@ header {
 height: 80px;
 line-height: 20px;
 width:100%;
-font-size:100;
 background-color: rgb(255,255,51, 0.7); 
 position:fixed;
 top:0;
@@ -185,6 +184,8 @@ margin:110px;
   .top-wrapper p {
     font-size: 25px;
   }
+  .login{
+    width:7.7%;
 
 }
  @media all and (max-width: 670px) {  
@@ -193,14 +194,13 @@ margin:110px;
     font-size:18px;
   }
     .login{
-    font-size:17px;
+    width:7.8%;
   }
   .btn {
   width: 100%;
 
 
   }
-  
     
   .top-wrapper h1 {
     font-size: 24px;
