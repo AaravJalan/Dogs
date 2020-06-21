@@ -211,39 +211,6 @@ box-shadow:none;
 
   @media all and (max-width: 670px) {  
 
-  .header-list{
-    font-size:18px;
-  }
-    .login{
-    width:8%;
-    left:88%
-  }
-  .btn {
-  width: 100%;
-
-
-  }
-    
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .btn-wrapper b {
-  padding-left:20px;
-
-}
-.column {
-width: 47%;
-}
-
-.column h1{
-  font-size:35px
-}
 
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
