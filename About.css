@@ -80,7 +80,7 @@ z-index:10;
 
 .top-wrapper h1 {
   padding:0px 310px;
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 45px;
   letter-spacing: 15px;
   margin-bottom: 10px;
@@ -89,7 +89,7 @@ z-index:10;
 }
 
 .top-wrapper p {
-  opacity: 0.6;
+  opacity: 0.8;
   font-family:trebuchet ms;
   font-size:29px;
 }
