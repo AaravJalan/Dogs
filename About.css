@@ -10,7 +10,7 @@ a {
 header {
 height: 80px;
 line-height: 20px;
-width:1280px;
+width:100%;
 font-size:100;
 background-color: rgb(255,255,51, 0.7); 
 height: 80px;
@@ -19,27 +19,30 @@ top:0;
 z-index:10;
 }
 
+html{
+  background-image: url("https://www.critterbabies.com/wp-content/uploads/2014/01/labrador-retriever-puppies.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
 .a{position:fixed;
 top:0;
-left:160;
+left:15%;
 z-index:10;
 }
 .b{
 position:fixed;
 top:0;
-left:430;
+left:39%;
 z-index:10;
 }
 .c{
 position:fixed;
 top:0;
-left:775;
+left:65%;
 z-index:10;
 }
-html{
-  background-image: url("https://www.critterbabies.com/wp-content/uploads/2014/01/labrador-retriever-puppies.jpeg");
-  background-size: cover;
-}
+
 
 .header-logo {
   float: left;
@@ -59,17 +62,17 @@ html{
 .main {
  padding: 35px 80px 100px 15px;
  background-color:#FFDF00;
- width:1140px;
+ width:95%;
 }
 
 .container {
-  width: 1170px;
+  width: 95%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 140px 50px 100px 50px;
   color: white;
   margin:auto;
   text-align:center;
@@ -107,24 +110,25 @@ font-family:trebuchet ms;
 
 .login{
 
-  color: #AD912F;
-  font-family:trebuchet ms;
-  font-size:23px;
-  display: block;
-  height:70px;
-  width:83px;
-  line-height: 80px;
-  padding-top: 10px ;
-  background-color: #AD912F;
-  text-align:center;
-  opacity:0.6;
-  font-size:21px;
-  position:fixed;
+color: #AD912F;
+font-family:trebuchet ms;
+display: block;
+height:70px;
+width:6.5%;
+line-height: 80px;
+padding-top: 10px ;
+background-color: #AD912F;
+text-align:center;
+opacity:0.6;
+font-size:18%;
+position:fixed;
 top:0;
-left:1130;
+left:90%;
 z-index:10;
 
+
 }
+
 
 .login:hover{
 opacity:1;
@@ -153,6 +157,8 @@ margin-top: 15px;
 margin-bottom: 0px;
 font-size:20px;
 float:center;
+text-align: justify;
+text-justify: inter-word;
 
 }
 
@@ -173,4 +179,42 @@ display: block;
 
 .fa {
 padding-left:100px;
+}
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+    font-size: 60px;
+  }
+  .top-wrapper p {
+    font-size: 35px;
+  }
+  .login{
+    font-size:15%;
+
+}
+}
+ @media all and (max-width: 670px) {  
+  .btn {
+  width: 100%;
+
+
+  }
+  .header-list{
+    font-size:18px;
+  }
+    .login{
+    font-size:15%;
+    }
+  .top-wrapper h1 {
+    font-size: 65px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 40px;
+    line-height: 20px;
+  }
+  .btn-wrapper b {
+  padding-left:20px;
+}
+ 
+
 }
