@@ -61,10 +61,6 @@ z-index:10;
 
 
 .main {
- display: flex;
- justify-content: center;
- align-items: center;
- background-color:#FFDF00;
  width:95%;
 }
 
@@ -149,13 +145,19 @@ display: block;
   line-height: 5px;
   opacity:0.8;
   color:#AD912F;
-  width:5%;
+  width:60px;
   top:50%;
+  font-size:95%;
+  position: absolute;
+  left: 45%;
+  top: 60%;
 }
 
 .section-title{
   top:40%;
-  position:relative;
+  position: absolute;
+  left: 39%;
+  top: 45%;
 }
 
 
@@ -174,17 +176,14 @@ display: block;
 
 
 .contact-submit:active{
-position: relative;
-top: 7px;
+position: absolute;
+top: 61%;
 box-shadow:none;
 }
 
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
     font-size: 60px;
-  }
-  .top-wrapper p {
-    font-size: 35px;
   }
   .login{
     font-size:15%;
@@ -207,13 +206,7 @@ box-shadow:none;
     font-size: 65px;
     line-height: 36px;
   }
-  .top-wrapper p {
-    font-size: 40px;
-    line-height: 20px;
-  }
-  .btn-wrapper b {
-  padding-left:20px;
-}
- 
+
+
 
 }
