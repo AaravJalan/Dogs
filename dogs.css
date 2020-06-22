@@ -110,23 +110,23 @@ width:97%;
 
 color: #AD912F;
 font-family:trebuchet ms;
-font-size:23px;
 display: block;
 height:70px;
-width:7.5%;
+width:6.5%;
 line-height: 80px;
 padding-top: 10px ;
 background-color: #AD912F;
 text-align:center;
 opacity:0.6;
-font-size:21px;
+font-size:20%;
 position:fixed;
 top:0;
-left:88.5%;
+left:89.5%;
 z-index:10;
 
 
 }
+
 
 .login:hover{
 opacity:1;
@@ -178,7 +178,6 @@ margin:110px;
 }
 
 
-
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
     font-size: 37px;
@@ -187,36 +186,42 @@ margin:110px;
     font-size: 25px;
   }
   .login{
-    width:7.7%;
-    left:87.3%;
+    font-size:17%;
 
 }
+  .column {
+  width: 47%;
+}
+}
  @media all and (max-width: 670px) {  
-
-  .header-list{
-    font-size:18px;
-  }
-    .login{
-    width:8%;
-    left:88%
-  }
   .btn {
   width: 100%;
 
 
   }
-    
+  .header-list{
+    font-size:18px;
+  }
+    .login{
+    font-size:15%;
+    }
   .top-wrapper h1 {
     font-size: 24px;
     line-height: 36px;
   }
-  
+  .loghide{
+    display:  none
+  }
+
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
   }
   .btn-wrapper b {
   padding-left:20px;
+}
+  .column {
+  width: 95%;
 }
 
 }

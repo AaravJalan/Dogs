@@ -234,20 +234,14 @@ box-shadow:none;
   }
     .login{
     font-size:15%;
-    left:87%;
-    width:8%;
     }
   .top-wrapper h1 {
     font-size: 24px;
     line-height: 36px;
   }
-  .c{
-    left:60%;
+  .loghide{
+    display:  none
   }
-  .b{
-    left:36%;
-  }
-  
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
