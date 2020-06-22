@@ -146,18 +146,11 @@ display: block;
   opacity:0.8;
   color:#AD912F;
   width:60px;
-  top:50%;
-  font-size:95%;
-  position: absolute;
-  left: 45%;
-  top: 60%;
+
 }
 
 .section-title{
-  top:40%;
-  position: absolute;
-  left: 39%;
-  top: 45%;
+ 
 }
 
 
