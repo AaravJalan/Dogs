@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "trebuchet ms";
 }
 
 a {
@@ -43,7 +43,6 @@ left:65%;
 z-index:10;
 }
 
-
 .header-logo {
   float: left;
   padding-left: 40px;
@@ -58,13 +57,7 @@ z-index:10;
   font-size:23px;
 
 }
-
-
 .main {
- display: flex;
- justify-content: center;
- align-items: center;
- background-color:#FFDF00;
  width:95%;
 }
 
@@ -149,13 +142,14 @@ display: block;
   line-height: 5px;
   opacity:0.8;
   color:#AD912F;
-  width:5%;
-  top:50%;
-}
+  width:60px;
+  position: absolute; 
+            margin: auto; 
+            top:35%;
+            left: 0; 
+            right: 0; 
+            bottom: 0; 
 
-.section-title{
-  top:40%;
-  position:relative;
 }
 
 
@@ -169,13 +163,18 @@ display: block;
   letter-spacing: 5px;
   font-family:trebuchet ms;
   color:white;
-
+position: absolute; 
+            margin: auto; 
+            top:50%;
+            left: 0; 
+            right: 0; 
+            bottom:0
 }
 
 
 .contact-submit:active{
-position: relative;
-top: 7px;
+position: absolute;
+top: 36%;
 box-shadow:none;
 }
 
@@ -183,37 +182,19 @@ box-shadow:none;
     .top-wrapper h1 {
     font-size: 60px;
   }
-  .top-wrapper p {
-    font-size: 35px;
-  }
   .login{
     font-size:15%;
 
 }
 }
  @media all and (max-width: 670px) {  
-  .btn {
-  width: 100%;
-
-
-  }
   .header-list{
     font-size:18px;
   }
     .login{
     font-size:15%;
     }
-  .top-wrapper h1 {
-    font-size: 65px;
-    line-height: 36px;
-  }
-  .top-wrapper p {
-    font-size: 40px;
-    line-height: 20px;
-  }
-  .btn-wrapper b {
-  padding-left:20px;
-}
- 
+
+
 
 }
