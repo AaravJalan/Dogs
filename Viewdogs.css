@@ -224,7 +224,7 @@ box-shadow:none;
 
 }
   .column {
-  width: 95%;
+  width: 47%;
 }
 }
  @media all and (max-width: 670px) {  
@@ -233,7 +233,7 @@ box-shadow:none;
     font-size:18px;
   }
     .login{
-    font-size:16%;
+    font-size:15%;
     }
   .top-wrapper h1 {
     font-size: 24px;
@@ -248,7 +248,7 @@ box-shadow:none;
   padding-left:20px;
 }
   .column {
-  width: 145%;
+  width: 95%;
 }
 
 }
