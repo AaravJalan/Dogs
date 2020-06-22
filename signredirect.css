@@ -179,9 +179,7 @@ box-shadow:none;
 }
 
 @media all and (max-width: 1000px) {
-    .top-wrapper h1 {
-    font-size: 60px;
-  }
+
   .login{
     font-size:15%;
 
