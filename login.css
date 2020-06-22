@@ -235,11 +235,6 @@ box-shadow:none;
 }
 }
  @media all and (max-width: 670px) {  
-  .btn {
-  width: 100%;
-
-
-  }
   .header-list{
     font-size:18px;
   }
