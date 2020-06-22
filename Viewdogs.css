@@ -47,23 +47,24 @@ z-index:10;
 
 color: #AD912F;
 font-family:trebuchet ms;
-font-size:23px;
 display: block;
 height:70px;
-width:7.5%;
+width:6.5%;
 line-height: 80px;
 padding-top: 10px ;
 background-color: #AD912F;
 text-align:center;
 opacity:0.6;
-font-size:21px;
+font-size:20%;
 position:fixed;
 top:0;
-left:88.5%;
+left:89.5%;
 z-index:10;
 
 
 }
+
+
 .header-logo {
   float: left;
   padding-left: 40px;
@@ -218,9 +219,11 @@ box-shadow:none;
     font-size: 25px;
   }
   .login{
-    width:7.7%;
-    left:87.3%;
+    font-size:17%;
 
+}
+  .column {
+  width: 47%;
 }
 }
  @media all and (max-width: 670px) {  
@@ -229,15 +232,8 @@ box-shadow:none;
     font-size:18px;
   }
     .login{
-    width:8%;
-    left:88%
-  }
-  .btn {
-  width: 100%;
-
-
-  }
-    
+    font-size:16%;
+    }
   .top-wrapper h1 {
     font-size: 24px;
     line-height: 36px;
