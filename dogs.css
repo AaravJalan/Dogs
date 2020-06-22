@@ -11,10 +11,18 @@ header {
 height: 80px;
 line-height: 20px;
 width:100%;
+font-size:100;
 background-color: rgb(255,255,51, 0.7); 
+height: 80px;
 position:fixed;
 top:0;
 z-index:10;
+}
+
+html{
+  background-image: url("https://www.critterbabies.com/wp-content/uploads/2014/01/labrador-retriever-puppies.jpeg");
+  background-size: cover;
+    background-position: center;
 }
 
 .a{position:fixed;
@@ -34,12 +42,7 @@ top:0;
 left:65%;
 z-index:10;
 }
-html{
-  padding-top:80px;
-  background-image: url("https://www.critterbabies.com/wp-content/uploads/2014/01/labrador-retriever-puppies.jpeg");
-  background-size: cover;
-  background-position: center;
-}
+
 
 .header-logo {
   float: left;
@@ -178,7 +181,6 @@ margin:110px;
 }
 
 
-
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
     font-size: 37px;
@@ -187,10 +189,13 @@ margin:110px;
     font-size: 25px;
   }
   .login{
-    font-size:16%;
+    font-size:15%;
 
 }
-
+  .column {
+  width: 47%;
+}
+}
  @media all and (max-width: 670px) {  
   .btn {
   width: 100%;
@@ -214,6 +219,8 @@ margin:110px;
   .btn-wrapper b {
   padding-left:20px;
 }
-
+  .column {
+  width: 95%;
+}
 
 }
