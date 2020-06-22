@@ -156,7 +156,7 @@ display: block;
 .section-title{
   top:40%;
   position: absolute;
-  left: 40%;
+  left: 39%;
   top: 45%;
 }
 
@@ -182,7 +182,7 @@ box-shadow:none;
 }
 
 @media all and (max-width: 1000px) {
-    .section-title{
+    .top-wrapper h1 {
     font-size: 60px;
   }
   .login{
@@ -202,7 +202,7 @@ box-shadow:none;
     .login{
     font-size:15%;
     }
-  .section-title{
+  .top-wrapper h1 {
     font-size: 65px;
     line-height: 36px;
   }
