@@ -180,6 +180,37 @@ display: block;
 margin:110px;
 }
 
+.marquee-wrapper{
+  display:none;
+
+}
+
+.m1{
+  padding:0 50px;
+}
+
+.m2{
+  padding:0 50px;
+
+}
+.mq2{
+padding:50px 0;
+}
+
+.m3{
+  padding:0 50px;
+
+}
+.m4{
+  padding:0 50px;
+  font-family:"Trebuchet ms";
+  font-weight:10000;
+  font-size:25px;
+
+}
+.mq4{
+padding:50px 0;
+}
 
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
@@ -223,4 +254,10 @@ margin:110px;
   width: 95%;
 }
 
+}
+
+@media all and (max-width: 750px) {  
+  .marquee-wrapper{
+    display:show;
+  }
 }
