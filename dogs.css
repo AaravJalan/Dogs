@@ -256,8 +256,8 @@ padding:50px 0;
 
 }
 
-@media all and (max-width: 750px) {  
+@media all and (max-width: 800px) {  
   .marquee-wrapper{
-    display:show;
+    display:block;
   }
 }
