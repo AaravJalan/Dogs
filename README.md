@@ -1,2 +1,0 @@
-# Dogs
-*My first website*
